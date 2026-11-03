@@ -4,6 +4,13 @@ import { Playground } from './playground'
 export const metadata: Metadata = {
   title: 'Nimby',
   description: 'The matewere.dev cloud mascot, rebuilt in code: every mood, size and theme, frame by frame.',
+  alternates: { canonical: '/nimby' },
+  openGraph: {
+    type: 'website',
+    url: '/nimby',
+    title: 'Nimby | matewere.dev lab',
+    description: 'The matewere.dev cloud mascot, rebuilt in code: every mood, size and theme, frame by frame.',
+  },
 }
 
 export default function NimbyPage() {

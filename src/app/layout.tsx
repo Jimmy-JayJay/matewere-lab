@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: SITE.title, template: '%s | matewere.dev lab' },
   description: SITE.description,
+  openGraph: { type: 'website', siteName: SITE.title, url: SITE.url, title: SITE.title, description: SITE.description },
 }
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
